@@ -1,7 +1,6 @@
-/* Proiect Geometrie, Problema 4
- * Descriere: Algoritmica + Rezolvare Grafica
- * Autori: Raul M. Crivineanu, Mihai Moiseanu, Catalin Chimerel
- * FMI UNIBUC, Anul II, Semestrul I
+/* Geometry Project
+ * Authors: Raul M. Crivineanu, Mihai Moiseanu
+ * FMI UNIBUC
  */
 
 import java.awt.event.MouseAdapter;
@@ -33,7 +32,7 @@ public class Frame extends javax.swing.JFrame implements ActionListener, MouseLi
 	}
 	
 		public void mouseClicked(MouseEvent e) {
-			System.out.println(e.getX() + " " + e.getY()); // ca sa fim siguri
+			//System.out.println(e.getX() + " " + e.getY());
 			x=e.getX();
 			y=e.getY();
 			Graphics g=jPanel1.getGraphics();
