@@ -1,3 +1,8 @@
+/* Geometry Project
+ * Authors: Raul M. Crivineanu, Mihai Moiseanu
+ * FMI UNIBUC
+ */
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
